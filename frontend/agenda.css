@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E9DBCE;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6F8374;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+    position: relative;
+    border-bottom: 4px solid #1E4A3E;
+    border-radius: 0 0 10px 10px;
+}
+
+header .logo {
+    font-weight: bold;
+    color: #4A0E0E;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+header .login {
+    color: #4A0E0E;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-container {
+    background-color: #C7D3CC;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    width: 500px;
+    height: 490px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 14%;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #AEB6B0;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #B7C9C0;
+}
+
+.compromissos {
+    margin-top: 20px;
+    width: 50%;
+    background-color: #C7D3CC;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.compromissos h2 {
+    margin-top: 0;
+}
+
+#comp-list li {
+    margin-bottom: 5px;
+}

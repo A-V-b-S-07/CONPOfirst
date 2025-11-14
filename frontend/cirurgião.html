@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Conpo — Informações cirurgião</title>
+  <link rel="stylesheet" href="cirurgião.css" />
+</head>
+<body class="page-bg">
+  <header class="top-header">
+    <h1 class="brand">Conpo</h1>
+  </header>
+
+  <main class="container">
+    <div class="hero-tab">
+      <h2>Informações cirurgião</h2>
+    </div>
+
+    <section class="form-card">
+      <form id="surgeonForm">
+        <label>Nome do cirurgião
+          <input type="text" name="name" id="name" required />
+        </label>
+
+        <label>Telefone
+          <input type="text" name="phone" id="phone" placeholder="51 9xxxx-xxxx" required />
+        </label>
+
+        <label>Especializações (separe por vírgula)
+          <input type="text" name="specialties" id="specialties" />
+        </label>
+
+        <label>Endereço de atendimento presencial
+          <input type="text" name="address" id="address" />
+        </label>
+
+        <label>Horário de atendimento
+          <input type="text" name="hours" id="hours" placeholder="Ex: seg-sex 9:00-17:00" />
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" id="saveBtn">Salvar</button>
+        </div>
+
+        <div id="message" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <script src="cirurgião.js"></script>
+</body>
+</html>

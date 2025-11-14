@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conpo - Agenda</title>
+    <link rel="stylesheet" href="agenda.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Conpo</h1>
+        <a href="home.html" class="login">home</a>
+    </header>
+
+    <main>
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <span>Mês: <span id="month-name"></span></span>
+                <span>Ano: <span id="year"></span></span>
+            </div>
+            <table id="calendar">
+                <thead>
+                    <tr>
+                        <th>Dom</th>
+                        <th>Seg</th>
+                        <th>Ter</th>
+                        <th>Qua</th>
+                        <th>Qui</th>
+                        <th>Sex</th>
+                        <th>Sáb</th>
+                    </tr>
+                </thead>
+                <tbody id="calendar-body">
+                    <!-- Dias serão gerados pelo JS -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="compromissos">
+            <h2>Compromissos</h2>
+            <ul id="comp-list">
+                <!-- Compromissos aparecerão aqui -->
+            </ul>
+        </div>
+    </main>
+
+    <script src="agenda.js"></script>
+</body>
+</html>

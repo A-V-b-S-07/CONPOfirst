@@ -1,0 +1,99 @@
+body { 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E9DBCE;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6F8374;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    position: relative;
+    border-bottom: 4px solid #1E4A3E;
+    border-radius: 0 0 10px 10px;
+}
+
+header .logo {
+
+    font-weight: bold;
+    color: #4A0E0E;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+header .login {
+    color: #4A0E0E;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+/* Layout principal */
+main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* Caixas de informações */
+.card {
+    background-color: #B5D2C4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border: 2px solid #6F8374;
+}
+
+.card h3 {
+    color: #4A0E0E;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card input,
+.card textarea {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #4A0E0E;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 40px;
+}
+
+/* Botão central */
+.center {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #B5D2C4;
+    color: #004a3d;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #4a0e0e;
+    cursor: pointer;
+    width: 180px;
+}
+
+button:hover {
+    background-color: #a0c4b4;
+}

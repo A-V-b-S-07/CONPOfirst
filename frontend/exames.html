@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conpo - Exames</title>
+    <link rel="stylesheet" href="exames.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Conpo</h1>
+        <a href="home.html" class="login">home</a>
+    </header>
+
+    <main>
+        <div class="tab">
+            <span>Exames</span>
+        </div>
+
+        <!-- Botão para adicionar novo exame -->
+        <div class="card">
+            <label for="fileInput">Adicionar novo exame</label>
+            <input type="file" id="fileInput" hidden>
+        </div>
+
+        <!-- Lista de arquivos adicionados -->
+        <div id="fileList"></div>
+    </main>
+
+    <script src="exames.js"></script>
+</body>
+</html>

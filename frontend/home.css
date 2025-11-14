@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E9DBCE;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6F8374;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+    position: relative;
+    border-bottom: 4px solid #1E4A3E;
+    border-radius: 0 0 10px 10px;
+}
+
+header .logo {
+    font-weight: bold;
+    color: #4A0E0E;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+header .login {
+    color: #4A0E0E;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+/* Container do formulário */
+.form-container {
+    background-color: #E9DBCE;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 50px 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+    border: 2px solid #6F8374;
+}
+
+.form-container h2 {
+    color: #004a3d;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #4A0E0E;
+    font-size: 16px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #4A0E0E;
+    background: transparent;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+button {
+    margin-top: 30px;
+    background-color: #B5D2C4;
+    color: #004a3d;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #4a0e0e;
+    cursor: pointer;
+    width: 150px;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #a0c4b4;
+}
+
+
+.icon-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.icon-box {
+    background-color: #B5D2C4;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.icon-box p {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4A0E0E;
+}
+
+.icon-box:hover {
+    background-color: #a0c4b4;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.big-btn {
+    background-color: #B5D2C4;
+    color: #4A0E0E;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.big-btn:hover {
+    background-color: #a0c4b4;
+}

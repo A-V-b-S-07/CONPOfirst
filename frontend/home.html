@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conpo - Página Inicial</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Conpo</h1>
+        <a href="inicio.html" class="login" id="logoutBtn">sair</a>
+    </header>
+
+    <main>
+        <div class="form-container" style="padding: 20px;">
+            <!-- Ícones principais -->
+            <div class="icon-grid">
+                <div class="icon-box" onclick="alert('Abrir Agenda')">
+                    <i class="fa-solid fa-calendar-days fa-2x"></i>
+                    <a href="agenda.html"><p>AGENDA</p></a>
+                </div>
+                <div class="icon-box" onclick="alert('Abrir Ficha Pessoal')">
+                    <i class="fa-solid fa-clipboard fa-2x"></i>
+                    <a href="ficha.html"><p>FICHA PESSOAL</p></a>
+                </div>
+                <div class="icon-box" onclick="alert('Abrir Lista de Remédios')">
+                    <i class="fa-solid fa-pills fa-2x"></i>
+                    <a href="remedios.html"><p>LISTA DE REMÉDIOS</p></a>
+                </div>
+                <div class="icon-box" onclick="alert('Abrir Exames')">
+                    <i class="fa-solid fa-syringe fa-2x"></i>
+                    <a href="exames.html"><p>EXAMES</p></a>
+                </div>
+            </div>
+
+            <hr style="margin: 30px 0; border: 0; border-top: 2px solid #4A0E0E;">
+
+            <!-- Botões -->
+            <div class="button-row">
+                <button class="big-btn">Encontre um psicólogo</button>
+                <button class="big-btn">Encontre um cirurgião</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E9DBCE;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6F8374;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+    position: relative;
+    border-bottom: 4px solid #1E4A3E;
+    border-radius: 0 0 10px 10px;
+}
+
+header .logo {
+    font-weight: bold;
+    color: #4A0E0E;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+header .login {
+    color: #4A0E0E;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+
+/* Aba Exames */
+.tab {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tab span {
+    background-color: #B9D1C0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Cartões */
+.card {
+    background-color: #C7D8D3;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.card label {
+    cursor: pointer;
+    display: block;
+}
+
+.file-card {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #e60000;
+}

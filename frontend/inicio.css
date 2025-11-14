@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E9DBCE;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6F8374;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+    position: relative;
+    border-bottom: 4px solid #1E4A3E;
+    border-radius: 0 0 10px 10px;
+}
+
+header .logo {
+    font-weight: bold;
+    color: #4A0E0E;
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+header .login {
+    color: #4A0E0E;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+header .login1 {
+    color: #4A0E0E;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+}
+
+.imagens {
+    display: flex;
+    height: 300px;
+}
+
+.imagem {
+    flex: 1;
+    border: 1px solid #999;
+    overflow: hidden;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.objetivos {
+    background-color: #C8E6E1;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.objetivos h2 {
+    margin-top: 0;
+}
+
+.objetivos p {
+    margin: 0;
+}
