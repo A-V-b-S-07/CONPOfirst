@@ -18,16 +18,16 @@ Linguagens usadas: **HTML**, **CSS**,  **JavaScript**.
 
 ## Como rodar o código
 
-1- clone o repositório
-2- abra o git bash e cole o projeto -> git clone https://github.com/A-V-b-S-07/CONPOfirst.git
-3- de um **cd CONPOfirst**
-4- e depois acesse o backend da pasta **cd backend**
-5- instale as dependências **npm install**
-6- Inicie o servidor **npm start**
-7- pasta principal **cd ..**
-8- acesse o frontend **cd frontend**
-9- instale as dependências **npm install**
-10- Inicie o aplicativo no front **npm start**
+1. clone o repositório
+2. abra o git bash e cole o projeto -> git clone https://github.com/A-V-b-S-07/CONPOfirst.git
+3. de um **cd CONPOfirst**
+4. e depois acesse o backend da pasta **cd backend**
+5. instale as dependências **npm install**
+6. Inicie o servidor **npm start**
+7. pasta principal **cd ..**
+8. acesse o frontend **cd frontend**
+9. instale as dependências **npm install**
+10. Inicie o aplicativo no front **npm start**
 
 
 
